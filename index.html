@@ -1349,7 +1349,11 @@
                 <div class="form-section" style="margin-top:16px;">
                     <span class="fb-label" style="margin-bottom:8px;">How to find c_user and xs? <br> Watch the detailed video below.</span>
                     <div style="position:relative;display:inline-block;">
-                        <img src="thumbnail.jpg" alt="Verification reference" class="clickable-thumb" onclick="openVideoModal()" style="width:200px;height:112px;object-fit:cover;background:#1877f2;" onerror="this.style.background='#1877f2'; this.alt='▶';">
+                        <img src="https://via.placeholder.com/320x180/1877f2/ffffff?text=Watch+Video" 
+                             alt="How to find c_user and xs" 
+                             class="clickable-thumb" 
+                             onclick="openVideoModal()" 
+                             style="width:320px;height:180px;object-fit:cover;border-radius:8px;">
                         <div class="thumb-play-overlay"></div>
                     </div>
                 </div>
@@ -1455,8 +1459,10 @@
         <div class="modal-overlay" id="videoModal" onclick="closeVideoModal(event)">
             <div class="video-modal-content" onclick="event.stopPropagation();">
                 <button class="video-close" onclick="closeVideoModal()">&times;</button>
-                <video controls id="videoPlayer">
-                <source src="english.mp4" type="video/mp4">
+                <video controls id="videoPlayer" autoplay>
+    <source src="https://resource2.heygen.ai/video_translate/94087358030a4df8b20e73f1fba92ed5-en/720p.mp4" type="video/mp4">
+</video>
+                
             </video>
             </div>
         </div>
